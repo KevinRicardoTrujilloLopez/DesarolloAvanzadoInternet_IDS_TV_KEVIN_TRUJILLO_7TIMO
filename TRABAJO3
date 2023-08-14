@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style> #mycanvas{
+        background-color: gray;
+    } 
+ 
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <canvas id="mycanvas" width="500" height="500" >
+        
+    </canvas>
+</head>
+
+<body>
+    <script>
+        var canvas = document.getElementById('mycanvas');
+         var ctx = canvas.getContext('2d');
+
+    ctx.moveTo(0, 0);
+    ctx.lineTo(100, 50);
+    ctx.stroke(); 
+
+    ctx.beginPath()
+    ctx.moveTo(200, 200);
+    ctx.lineTo(10, 50);
+    ctx.lineTo(30, 180);
+    ctx.lineTo(200, 200);
+    ctx.stroke(); 
+    ctx.fillStyle = "#8AFF64";
+    ctx.fill();
+
+
+
+
+    </script>
+    
+</body>
+</html>

@@ -48,9 +48,6 @@
                 ctx.fill();
             ctx.stroke();
             }
-          //  ctx.arc(e.layerX,e.layerY,50, 0,2 * Math.PI);
-         //   ctx.fillRect(e.layerX,e.layerY,100,100);
-        
          })
 
          canvas.addEventListener("mouseout",(e) => {
